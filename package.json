@@ -1,0 +1,37 @@
+{
+  "name": "flare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all -p start test:e2e",
+    "test:e2e": "cypress open",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "keywords": [
+    "framework",
+    "CSS",
+    "JS",
+    "webpack"
+  ],
+  "author": "Christian Seip",
+  "license": "MIT",
+  "description": "A custom CSS and JS framework for web projects",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "cypress": "^13.15.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
