@@ -173,6 +173,11 @@ code {
 	white-space: nowrap;
 }
 
+.text-lead {
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
 .text-highlight {
 	background-color: var(--warning-light);
 	padding: 0.2em 0.4em;
@@ -181,6 +186,9 @@ code {
 
 .text-muted {
 	color: var(--muted-text);
+}
+
+.text-italic {
 	font-style: italic;
 }
 
